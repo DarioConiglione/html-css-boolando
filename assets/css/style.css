@@ -1,0 +1,51 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img
+{
+  max-width: 100%;
+}
+
+header {
+    background-color: orange;
+    height: 35px;
+}
+
+.logo{
+    height: auto;
+}
+
+
+/*--Utilities--*/
+.d-flex{
+    display: flex;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.top{
+    position: absolute;
+}
+
+.bottom{
+    position: relative;
+}
+
+
+
+/*--Common--*/
+.container {
+      width: 80%;      
+      margin: 0 auto;
+}
+
+ a {
+      text-decoration: none;
+      color: white;
+ }
