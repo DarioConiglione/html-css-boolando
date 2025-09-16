@@ -33,9 +33,6 @@ header {
     position: absolute;
 }
 
-.bottom{
-    position: relative;
-}
 
 
 
@@ -48,4 +45,18 @@ header {
  a {
       text-decoration: none;
       color: white;
+ }
+
+ .product-card{
+    position: relative;
+ }
+
+ .discount{
+    background-color: red;
+    color: white;
+ }
+
+ .sostenibilita{
+    background-color: green;
+    color: white;
  }
