@@ -1,8 +1,7 @@
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /*-- Commons --*/
@@ -10,7 +9,7 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    
+
 }
 
 .width-card {
@@ -22,7 +21,7 @@
 img {
     max-width: 100%;
 }
-    
+
 
 
 /*-- Utilities--*/
@@ -69,15 +68,51 @@ i {
 /*--main--*/
 
 .product-image {
-    img.bottom-img{
+    img.bottom-img {
         display: none;
     }
 
-    &:hover img.top-img{
+    &:hover img.top-img {
         display: none;
     }
 
     &:hover img.bottom-img {
         display: block;
     }
+
+
+}
+
+.product-image {
+    position: relative;
+
+    .like {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+}
+
+.labels {
+    position: absolute;
+    bottom: 3rem;
+    color: white;
+    
+    .discount {
+        background-color: red;
+        padding: 0.3rem;
+        margin: 0.3rem;
+        
+    }
+
+    .eco {
+        background-color: green;
+        padding: 0.3rem;
+        margin: 0.3rem;
+    }
+}
+
+.first-price {
+    text-decoration: line-through;
 }
