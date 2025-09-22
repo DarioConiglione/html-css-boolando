@@ -13,6 +13,18 @@
     
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+}
+
+i {
+    padding-left: 1rem;
+}
+    
+
+
 /*-- Utilities--*/
 .d-flex {
     display: flex;
@@ -26,3 +38,17 @@
 .icon {
     color: white;
 }
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/*--header--*/
+header {
+    background-color: orange;
+}
+
