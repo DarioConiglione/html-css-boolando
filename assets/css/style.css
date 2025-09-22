@@ -46,6 +46,10 @@ img {
     justify-content: space-between;
 }
 
+.product {
+    gap: 2rem;
+}
+
 
 
 
@@ -53,7 +57,7 @@ img {
 /*--header--*/
 header {
     background-color: orange;
-}
+   }
 
 a {
     text-decoration: none;
@@ -66,6 +70,11 @@ i {
 }
 
 /*--main--*/
+
+main {
+    padding: 4rem 0;
+    pa
+}
 
 .product-image {
     img.bottom-img {
@@ -116,3 +125,17 @@ i {
 .first-price {
     text-decoration: line-through;
 }
+
+.last-price {
+    color: red;
+}
+
+/*--Footer--*/
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+
+}
+
