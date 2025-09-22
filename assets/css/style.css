@@ -5,58 +5,24 @@
   box-sizing: border-box;
 }
 
-img
-{
-  max-width: 100%;
+/*-- Commons --*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
 }
 
-header {
-    background-color: orange;
-    height: 35px;
-}
-
-.logo{
-    height: auto;
-}
-
-
-/*--Utilities--*/
-.d-flex{
+/*-- Utilities--*/
+.d-flex {
     display: flex;
 }
 
-.space-around{
-    justify-content: space-around;
+.position {
+    justify-content: space-between;
+    align-items: center;
 }
 
-.top{
-    position: absolute;
-}
-
-
-
-
-/*--Common--*/
-.container {
-      width: 80%;      
-      margin: 0 auto;
-}
-
- a {
-      text-decoration: none;
-      color: white;
- }
-
- .product-card{
-    position: relative;
- }
-
- .discount{
-    background-color: red;
+.icon {
     color: white;
- }
-
- .sostenibilita{
-    background-color: green;
-    color: white;
- }
+}
